@@ -1,4 +1,4 @@
-import {saludar, despedir, estadoSistema, suma} from "../src/app.js"
+import {saludar, despedir, estadoSistema, suma, resta} from "../src/app.js"
 
 function ejecutarPruebas() {
 let pasadas =0;
@@ -29,6 +29,15 @@ if(sumaResultado === 31){
     pasadas++;
 }else{
     console.log("Test 3 fallido:  se esperaba 31, se obtuvo ", sumaResultado );
+fallidas++;
+}
+
+const restaResultado = resta(11, 20);
+if(restaResultado === -9){
+    console.log("Test 3 pasado: funcion resta (11, 20) es correcta(-9)");
+    pasadas++;
+}else{
+    console.log("Test 3 fallido:  se esperaba -9, se obtuvo ", restaResultado );
 fallidas++;
 }
 
