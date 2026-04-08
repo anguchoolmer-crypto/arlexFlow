@@ -11,3 +11,7 @@ version: "1.0.0",
 message: "sistema calcularalex funcionando correctamente"
 };
 }
+
+export function suma(a,b){
+    return a + b;
+}

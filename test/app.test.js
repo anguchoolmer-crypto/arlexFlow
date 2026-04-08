@@ -22,6 +22,16 @@ pasadas++;
 console.log("Test 2 fallido: ", estado, "en arlex");
 fallidas++;
 }
+
+const sumaResultado = suma(11, 20);
+if(sumaResultado === 31){
+    console.log("Test 3 pasado: funcion suma (11, 20) es correcta(31)");
+    pasadas++;
+}else{
+    console.log("Test 3 fallido:  se esperaba 31, se obtuvo ", sumaResultado );
+fallidas++;
+}
+
 console.log("\nResultados: " + pasadas + " pasadas, ", + fallidas + "fallidas");
 if(fallidas>0) process.exit(1); 
 }
