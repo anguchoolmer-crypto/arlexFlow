@@ -1,3 +1,5 @@
+import { version } from "react";
+
 export function saludar(nombre){
 return "Hola " + nombre + ", bienvenido a aplicacion  de Arlex";
 }
@@ -14,4 +16,13 @@ message: "sistema calcularalex funcionando correctamente"
 
 export function suma(a,b){
     return a + b;
+}
+
+export function healthCheck() {
+    return { 
+        status: "ok",
+        timestamp: new Date().toISOString(),
+        servicio: 'StreamFlow API',
+        version: '1.0.0' 
+    }
 }
