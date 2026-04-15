@@ -4,7 +4,7 @@
  "type": "modele",
  "description": "primera aplicacion Arlex flow",
  "scripts": {
- "start": "node src/app.js",
- "test": "node test/app.test.js"
+  "start": "node src/app.js",
+  "test": "node test/app.test.js"
  }
 }
