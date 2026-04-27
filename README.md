@@ -1,25 +1,16 @@
-<div align="center">
-    <img src="https://i.pinimg.com/originals/7b/akaza-demon-slayer.jpg" width="500"/>
-</div>
+# 🚀 Coderider
 
-# Desarrollado por: *TU NOMBRE AQUÍ*
+![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Proyecto inspirado en Kimetsu no Yaiba
-
-### Descripción
-
-Este proyecto está basado en el universo de Demon Slayer, representando el poder de los demonios y la lucha contra los cazadores.
-
-- JavaScript
-- Node.js
-- Git & GitHub
+> Plataforma simple para probar despliegues web y prácticas con Git.
 
 ---
 
-# Estado del proyecto
+## 📸 Vista previa
 
-En modo demonio activo  
-En desarrollo continuo
-
----
-## Frase de Akaza
+```html
+<h1>BIENVENIDOS A CODERIDER</h1>
+<p>Verificando el despliegue...</p>
