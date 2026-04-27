@@ -16,7 +16,7 @@ function healthCheck(){
 function verificarSistema(){
     const resultado = healthCheck();
     const statusDiv = document.getElementById('status');
-    statusDiv.textContent = ${resultado.message} | ${resultado.timestamp};
+    statusDiv.textContent = `${resultado.message} | ${resultado.timestamp}`;
     statusDiv.style.color = '#0094BC';
 }
 
